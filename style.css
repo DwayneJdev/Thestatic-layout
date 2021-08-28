@@ -103,7 +103,8 @@ transition: all 0.4s ease;
 .Community button:focus + ul{
     opacity: 1;
     pointer-events: all;
-    transform:translateY(0px)
+    transform:translateY(0px);
+    color: white;
 }
 
 .topcontent{ 
@@ -127,21 +128,24 @@ width: 100%;
 p{
     color: white;
     text-align: center;
-    
+    ;
 }
 
 h1{
     color: white;
 }
 
-.open a{
-    
+.lastsection p{
+  color: rgb(85, 80, 80);
+  font-size: large;
+  
 }
 
-#loweropen a{
+#loweropen button a{
     background-color: goldenrod;
+    background: goldenrod;
     display:-webkit-flex;
-    padding: 0 15px;
+    padding: 0;
     border: none;
     text-decoration: none;
     text-align: center;
@@ -151,7 +155,12 @@ h1{
     font-size: 20px;
     width: 150px;
     height: 35px;
-    
+}
+
+#loweropen button{
+    background-color: goldenrod;
+    border-radius: 1px;
+    padding: 10px;
 }
 
 .features{
